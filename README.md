@@ -1,5 +1,7 @@
 # WhatsForDinner
 
+*Won't be included in MVP, can add later if time
+
 Health Label Criteria
 “vegan”
 “vegetarian”
@@ -15,16 +17,16 @@ Health Label Criteria
 “soy-free”
 “fish-free”
 “shellfish-free”
-"None"
+"None"*
 
 Cuisine Type Criteria-How to insert the spaces? 
 American
 Asian
 British
 Caribbean
-Central Europe
+Central Europe*
 Chinese
-Eastern Europe
+Eastern Europe*
 French
 Indian
 Italian
@@ -32,15 +34,15 @@ Japanese
 Kosher
 Mediterranean
 Mexican
-Middle Eastern
+Middle Eastern*
 Nordic
-South American
-South East Asian
-"Any"
+South American*
+South East Asian*
+"Any"*
 
 
 Calories Criteria
 100-500
 500-1000
 1000-2000
-"Any"
+"Any"*
