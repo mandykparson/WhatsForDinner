@@ -12,6 +12,8 @@ const dietaryRestriction = document.querySelector('#dietaryRestriction')
 const cuisine = document.querySelector('#cuisine')
 const calorieRange = document.querySelector('#calorieRange')
 
+"comment"
+"new change"
 
 //FUNCTIONS
 function addDropDown(array, container){
