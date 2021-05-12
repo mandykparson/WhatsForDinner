@@ -1,5 +1,7 @@
 # WhatsForDinner
 
+Example API URL: https://api.edamam.com/search?q=Soy-Free&app_id=dcf20c9d&app_key=63a8264f3b792612479f31858dff2dd1
+
 *Won't be included in MVP, can add later if time
 
 Health Label Criteria
