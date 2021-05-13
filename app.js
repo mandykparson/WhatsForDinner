@@ -57,7 +57,6 @@ function newPickMe() {
     healthLabel = dietaryRestriction.value
     cultureType = cuisine.value
     calories = calorieRange.value
-    console.log(healthLabel, cultureType, calories)
     let recipeURL = `https://api.edamam.com/search?q=${healthLabel}&app_id=dcf20c9d&app_key=63a8264f3b792612479f31858dff2dd1&mealType=dinner&dishType=main%20course&cuisineType=${cultureType}&calories=${calories}`
     const dinnerOptions = []
     fetch(recipeURL)
@@ -85,26 +84,24 @@ submitButton.addEventListener('click', () => {
     }
 })
 
-// looksBad.addEventListener('click', ()=> {
-//     let count = 1
-//     healthLabel = dietaryRestriction.value
-//     cultureType = cuisine.value
-//     calories = calorieRange.value
-//     console.log(healthLabel, cultureType, calories)
-//     let recipeURL = `https://api.edamam.com/search?q=${healthLabel}&app_id=dcf20c9d&app_key=63a8264f3b792612479f31858dff2dd1&mealType=dinner&dishType=main%20course&cuisineType=${cultureType}&calories=${calories}`
-//     const dinnerOptions = []
-//     fetch(recipeURL)
-//         .then(response => response.json())
-//         .then(results => {
-//             let resultHits = results.hits
-//             resultHits.forEach(hit => {
-//                 dinnerOptions.push(hit)
-//             })
-//             let removeCard = document.querySelector('.pickMeCard')
-//             removeCard.remove()
-//             renderCard(dinnerOptions[count])
-//             count = count + 1
-//             console.log(count)
-//         })
+let count = 1
+looksBad.addEventListener('click', ()=> {
+    healthLabel = dietaryRestriction.value
+    cultureType = cuisine.value
+    calories = calorieRange.value
+    let recipeURL = `https://api.edamam.com/search?q=${healthLabel}&app_id=dcf20c9d&app_key=63a8264f3b792612479f31858dff2dd1&mealType=dinner&dishType=main%20course&cuisineType=${cultureType}&calories=${calories}`
+    const dinnerOptions = []
+    fetch(recipeURL)
+        .then(response => response.json())
+        .then(results => {
+            let resultHits = results.hits
+            resultHits.forEach(hit => {
+                dinnerOptions.push(hit)
+            })
+            let removeCard = document.querySelector('.pickMeCard')
+            removeCard.remove()
+            renderCard(dinnerOptions[count])
+            count++
+        })
 
-// })
+})
