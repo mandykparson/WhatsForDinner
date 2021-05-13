@@ -14,7 +14,6 @@ const calorieRange = document.querySelector('#calorieRange')
 const pickMeContainer = document.querySelector('.pickMeContainer')
 // const dinnerOptions = []
 const submitButton = document.querySelector('#submitCriteria')
-const looksGood = document.querySelector('#looksGood')
 const looksBad = document.querySelector('#looksBad')
 
 
