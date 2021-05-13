@@ -17,9 +17,12 @@ const submitButton = document.querySelector('#submitCriteria')
 const looksGood = document.querySelector('#looksGood')
 const looksBad = document.querySelector('#looksBad')
 
+
 // href = recipe.shareAs
 
 
+"comment"
+"new change"
 
 //FUNCTIONS
 function addDropDown(array, container){
@@ -67,12 +70,7 @@ function newPickMe() {
                 dinnerOptions.push(hit)
             })
             renderCard(dinnerOptions[0])
-        })
-}
-
-//FETCHES
-
-
+      
 //EVENT LISTENERS
 submitButton.addEventListener('click', () => {
     if (healthLabel !== "value") {
