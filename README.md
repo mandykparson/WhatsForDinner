@@ -71,7 +71,7 @@ Both Chelsea and Mandy love to cook! So they let their passion for food guide th
 
 ## Contact
 
-Created by [Mandy Parson](https://www.linkedin.com/in/mandy-parson/) or [Chelsea Santos](https://www.linkedin.com/in/mchelseasantos/) 
+Created by [Mandy Parson](https://www.linkedin.com/in/mandy-parson/) and [Chelsea Santos](https://www.linkedin.com/in/mchelseasantos/) 
 
 Feel free to reach out to us!
 
