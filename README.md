@@ -1,7 +1,7 @@
 # What's for Dinner
 > Your personal taste-maker for dinner tonight!
 
-##Table of Contents
+## Table of Contents
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
