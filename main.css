@@ -1,10 +1,22 @@
 header {
     color: coral;
+    display: flex;
+    justify-content: center;
+    margin:0px;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+    /* sets bottom border */
 }
 
 body {
     background-color:darkolivegreen;
+    margin: 0px;
 
+}
+
+.main-content {
+    margin: 0px;
+    display: flex;
 }
 
 h1{
@@ -12,13 +24,16 @@ h1{
     font-style: oblique;
     font-weight: bold;
     font-stretch: ultra-expanded;
-    padding: 50px;
-    margin: 50px;
 } 
 
-.criteriaBox{
-    padding: 50px;
-} 
+.criteria-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-width: 20%;
+    border-style: double;
+    border-width: 0px 5px 0px 0px;
+}
 
 .criteria {
     padding: 10px;
@@ -26,18 +41,24 @@ h1{
     color: coral;
     font-weight: bold;
 } 
-
 .pickMeContainer{
-    padding: 10px;
     display: flex;
-    flex-direction: column;
-} 
+    justify-content: center;
+    align-content: center;
+    min-width: 80%;
+    min-height: 600px;
+    background-image: url("https://images.app.goo.gl/UyZZ8WHvfeN3nRo66");
+
+}
 
 .pickMeCard{
-    padding: 10px;
     display: flex;
     flex-direction: column;
-} 
+    align-self:center;
+    border: 3px solid black;
+    border-radius: 15px;
+    min-width: 150px;
+}
 
 .userDecisionContainer{
     padding: 10px;
@@ -59,4 +80,25 @@ button {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
 } 
+img {
+    border-radius: 15px 15px 0px 0px;
+    border-style:dotted;
+    border-width: 0px 0px 5px 0px;
+}
+
+h3 {
+    margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+    margin: 1rem;
+}
+
+
+
+
+
+
+
 
