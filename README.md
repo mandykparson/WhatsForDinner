@@ -1,5 +1,5 @@
-#What's for Dinner
-Your personal taste-maker for dinner tonight!
+# What's for Dinner
+> Your personal taste-maker for dinner tonight!
 
 ##Table of Contents
 * [General info](#general-info)
@@ -11,23 +11,23 @@ Your personal taste-maker for dinner tonight!
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-##General-Info
+## General-Info
 What's for Dinner is an application that helps you decide what to eat for dinner tonight. You'll have the opportunity to select from three criteria: Dietary Restriction, Cuisine Type, and Calorie Range. Once you've made your selections, our application will generate a recipe for you to try. Don't like the recipe? You can select another by using the appropriate button. Happy Eating!
 
-##Technologies
+## Technologies
 * JavaScript
 * CSS
 * HTML
 * [Edamam API](https://developer.edamam.com/edamam-docs-recipe-api)
 
-##Setup
+## Setup
 To run this project, you'll need to install it locally by cloning the GitHub repository via 
 ```
 $ git clone git@github.com:${your_name_here}/WhatsForDinner.git
 ```
 Please note that ${your_name_here} should be replaced with your personal git hub account name. 
 
-##Code Examples
+## Code Examples
 ```javascript
 let count = 1
 looksBad.addEventListener('click', ()=> {
@@ -52,7 +52,7 @@ looksBad.addEventListener('click', ()=> {
 })
 ```
 
-##Features
+## Features
 * Personalize your recommendation using criteria
 * Return a recipe that's right for you
 * Choose to follow the recipe to it's appropriate page
@@ -63,13 +63,13 @@ To-do list:
 * Add a "like" button
 * Be able to search for cuisine types with spaces. IE. "Middle Eastern"
 
-##Status
+## Status
 Project is: finished. API limit is 10 hits per minute
 
-##Inspiration
+## Inspiration
 Both Chelsea and Mandy love to cook! So they let their passion for food guide them to this recipe generator. 
 
-##Contact
+## Contact
 
 Created by [Mandy Parson](https://www.linkedin.com/in/mandy-parson/) or [Chelsea Santos](https://www.linkedin.com/in/mchelseasantos/) 
 
