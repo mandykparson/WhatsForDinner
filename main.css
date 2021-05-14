@@ -8,7 +8,7 @@ body {
 }
 
 h1{
-    font-family: Georgia, serif;
+    font-family: 'Goblin One', cursive;
     font-style: oblique;
     font-weight: bold;
     font-stretch: ultra-expanded;
@@ -22,7 +22,7 @@ h1{
 
 .criteria {
     padding: 10px;
-    font-family: Georgia, serif;
+    font-family: 'Goblin One', cursive;
     color: coral;
     font-weight: bold;
 } 
@@ -52,7 +52,7 @@ button {
 	display:inline-block;
 	cursor:pointer;
 	color:#050505;
-	font-family:Georgia, serif;;
+	font-family: 'Goblin One', cursive;
 	font-size:15px;
 	font-weight:bold;
 	padding:6px 24px;
