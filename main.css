@@ -2,20 +2,20 @@ header {
     color: coral;
     display: flex;
     justify-content: center;
-    margin:0px;
+    margin:20px;
     border-style: solid;
     border-width: 0px 0px 5px 0px;
     /* sets bottom border */
 }
 
 body {
-    background-color:darkolivegreen;
     margin: 0px;
+    background-image: url('https://www.allwhitebackground.com/images/7/Notebook-Background-HD-Image.jpg');
 
 }
 
 .main-content {
-    margin: 0px;
+    margin: 0px; 
     display: flex;
 }
 
@@ -33,6 +33,8 @@ h1{
     min-width: 20%;
     border-style: double;
     border-width: 0px 5px 0px 0px;
+    margin-left: 8rem;
+    color: coral;
 }
 
 .criteria {
@@ -47,8 +49,6 @@ h1{
     align-content: center;
     min-width: 80%;
     min-height: 600px;
-    background-image: url("https://images.app.goo.gl/UyZZ8WHvfeN3nRo66");
-
 }
 
 .pickMeCard{
