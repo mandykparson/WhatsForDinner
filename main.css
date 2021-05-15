@@ -1,100 +1,119 @@
 header {
-    color: coral;
     display: flex;
-    justify-content: center;
-    margin:20px;
-    border-style: solid;
-    border-width: 0px 0px 5px 0px;
+    align-content: center;
     /* sets bottom border */
+    background-color: #f7a800;
 }
 
 body {
     margin: 0px;
-    background-image: url('https://www.allwhitebackground.com/images/7/Notebook-Background-HD-Image.jpg');
-
 }
 
 .main-content {
-    margin: 0px; 
     display: flex;
+    justify-content: space-around;
+    min-height: 500px;
+    max-height: 500px;
+    margin: 1rem;
+    font-family: 'Lora', serif;
 }
 
-h1{
-    font-family: 'Goblin One', cursive;
-    font-style: oblique;
-    font-weight: bold;
-    font-stretch: ultra-expanded;
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    margin-left: 4rem;
+    color: white;
 } 
 
 .criteria-box{
+    min-width: 40%;
+    max-width: 40%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    min-width: 20%;
-    border-style: double;
-    border-width: 0px 5px 0px 0px;
-    margin-left: 8rem;
-    color: coral;
+    flex-direction:column;
+    border: solid;
+    border-color: #f7a800;
+    border-radius: 50px;
+    background-color: white;
+
 }
 
 .criteria {
-    padding: 10px;
-    font-family: 'Goblin One', cursive;
-    color: coral;
-    font-weight: bold;
+    padding: 45px;
+
 } 
 .pickMeContainer{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    min-width: 80%;
-    min-height: 600px;
+    min-width: 40%;
+    max-width: 40%;
 }
 
 .pickMeCard{
+    border: solid;
+    border-radius: 50px;
+    border-color: #f7a800;
     display: flex;
     flex-direction: column;
-    align-self:center;
-    border: 3px solid black;
-    border-radius: 15px;
-    min-width: 150px;
+    min-height: 493px;
+    max-height: 493px;
+    background-color: white;
 }
 
-.userDecisionContainer{
-    padding: 10px;
-} 
-
-button {
-    box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
-	background-color:#ededed;
-	border-radius:6px;
-	border:1px solid #dcdcdc;
-	display:inline-block;
-	cursor:pointer;
-	color:#050505;
-	font-family: 'Goblin One', cursive;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
-} 
 img {
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 50px 50px 0px 0px;
     border-style:dotted;
+    border-color: #f7a800;
     border-width: 0px 0px 5px 0px;
 }
 
 h3 {
-    margin: 1rem;
+    margin: 2rem;
 }
 
 a {
     text-decoration: none;
-    margin: 1rem;
+    margin: 2rem;
+    color: black
 }
 
+button {
+    margin: 1rem;
+    background-color: #f7a800;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px 5px;
+    font-family: 'Lora', serif;
+    border-radius: 50px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f7a800;
+    background-size: 56px 56px;
+    background-image:
+    linear-gradient(
+        135deg,
+        transparent 55%,
+        #f7a800 55%
+    ),
+     radial-gradient(
+        transparent 6px,
+        #ffffff 6px,
+        #ffffff 10px,
+        transparent 10px,
+        transparent 15px,
+        #ffffff 15px,
+        #ffffff 19px,
+        transparent 19px,
+        transparent 24px,
+        #ffffff 24px,
+        #ffffff 28px,
+        transparent 28px
+    );
+}
 
 
 

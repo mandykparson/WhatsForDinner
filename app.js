@@ -15,6 +15,7 @@ const pickMeContainer = document.querySelector('.pickMeContainer')
 // const dinnerOptions = []
 const submitButton = document.querySelector('#submitCriteria')
 const looksBad = document.querySelector('#looksBad')
+const userDecisionContainer = document.querySelector('.userDecisionContainer')
 
 
 //FUNCTIONS
@@ -47,6 +48,7 @@ function renderCard(object) {
     a.innerText = "Click Here For the Recipe"
     a.href = object.recipe.shareAs
     div.append(a)
+    
 }
 
 function newPickMe() {
@@ -56,14 +58,14 @@ function newPickMe() {
     let recipeURL = `https://api.edamam.com/search?q=${healthLabel}&app_id=dcf20c9d&app_key=63a8264f3b792612479f31858dff2dd1&mealType=dinner&dishType=main%20course&cuisineType=${cultureType}&calories=${calories}`
     const dinnerOptions = []
     fetch(recipeURL)
-        .then(response => response.json())
-        .then(results => {
-            let resultHits = results.hits
-            resultHits.forEach(hit => {
-                dinnerOptions.push(hit)
-            })
-            renderCard(dinnerOptions[0])
+    .then(response => response.json())
+    .then(results => {
+        let resultHits = results.hits
+        resultHits.forEach(hit => {
+            dinnerOptions.push(hit)
         })
+        renderCard(dinnerOptions[0])
+    })
 }    
 //EVENT LISTENERS
 submitButton.addEventListener('click', () => {
@@ -78,22 +80,22 @@ submitButton.addEventListener('click', () => {
 
 let count = 1
 looksBad.addEventListener('click', ()=> {
-    healthLabel = dietaryRestriction.value
-    cultureType = cuisine.value
-    calories = calorieRange.value
-    let recipeURL = `https://api.edamam.com/search?q=${healthLabel}&app_id=dcf20c9d&app_key=63a8264f3b792612479f31858dff2dd1&mealType=dinner&dishType=main%20course&cuisineType=${cultureType}&calories=${calories}`
-    const dinnerOptions = []
-    fetch(recipeURL)
-    .then(response => response.json())
-    .then(results => {
-        let resultHits = results.hits
-        resultHits.forEach(hit => {
-            dinnerOptions.push(hit)
-        })
-        let removeCard = document.querySelector('.pickMeCard')
-        removeCard.remove()
-        renderCard(dinnerOptions[count])
-        count= count +1
-    })   
-    
+healthLabel = dietaryRestriction.value
+cultureType = cuisine.value
+calories = calorieRange.value
+let recipeURL = `https://api.edamam.com/search?q=${healthLabel}&app_id=dcf20c9d&app_key=63a8264f3b792612479f31858dff2dd1&mealType=dinner&dishType=main%20course&cuisineType=${cultureType}&calories=${calories}`
+const dinnerOptions = []
+fetch(recipeURL)
+.then(response => response.json())
+.then(results => {
+    let resultHits = results.hits
+    resultHits.forEach(hit => {
+        dinnerOptions.push(hit)
+    })
+    let removeCard = document.querySelector('.pickMeCard')
+    removeCard.remove()
+    renderCard(dinnerOptions[count])
+    count= count +1
+})   
+
 })
