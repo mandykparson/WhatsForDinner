@@ -73,7 +73,7 @@ Both Chelsea and Mandy love to cook! So they let their passion for food guide th
 
 Created by [Mandy Parson](https://www.linkedin.com/in/mandy-parson/) and [Chelsea Santos](https://www.linkedin.com/in/mchelseasantos/) 
 
-Feel free to reach out to us!
+Feel free to reach out to [us](mailto:mandykparson@gmail.com)!
 
 
 
